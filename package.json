@@ -6,11 +6,11 @@
     "name": "number7team",
     "email": "team@number7.co"
   },
-  "repository": "git://github.com/pembo210/7sights-api.git",
+  "repository": "git://github.com/pembo210-7/7sights-api.git",
   "contributors": [
     {
-      "name": "FlappyDEV",
-      "email": "dev@goflap.io"
+    "name": "number7team",
+    "email": "team@number7.co"
     },
    {
       "name": "pembo210",
@@ -18,9 +18,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/pembo210/7sights-api/issues"
+    "url": "https://github.com/pembo210-7/7sights-api/issues"
   },
-  "homepage": "https://github.com/pembo210/7sights-api",
+  "homepage": "https://github.com/pembo210-7/7sights-api",
   "license": "MIT",
   "keywords": [
     "7sights",
@@ -43,7 +43,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore": "git://github.com/number7team/7core.git",
+    "bitcore": "git://github.com/pembo210-7/7core.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
