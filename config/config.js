@@ -24,13 +24,13 @@ var home = process.env.INSIGHT_DB || (getUserHome() + '/.Number7-insight');
 if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
-  port = '3000';
+  port = '7000';
   b_port = '6094';
   p2p_port = '6093';
 } else {
   env = 'testnet';
   db = home + '/testnet';
-  port = '3001';
+  port = '7001';
   b_port = '16094';
   p2p_port = '16093';
 }
@@ -58,7 +58,7 @@ var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
   if (isWin) dataDir = '%APPDATA%\\Number7\\';
   if (isMac) dataDir = process.env.HOME + '/Library/Application Support/Number7/';
-  if (isLinux) dataDir = process.env.HOME + '/.Number7/';
+  if (isLinux) dataDir = process.env.HOME + '/.number7/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
@@ -68,8 +68,8 @@ var ignoreCache = process.env.INSIGHT_IGNORE_CACHE || 0;
 
 var bitcoindConf = {
   protocol: process.env.BITCOIND_PROTO || 'http',
-  user: process.env.BITCOIND_USER || 'rpc_insight',
-  pass: process.env.BITCOIND_PASS || '840desins590',
+  user: process.env.BITCOIND_USER || 'userseven',
+  pass: process.env.BITCOIND_PASS || 'passseven',
   host: process.env.BITCOIND_HOST || '127.0.0.1',
   port: process.env.BITCOIND_PORT || b_port,
   p2pPort: process.env.BITCOIND_P2P_PORT || p2p_port,
