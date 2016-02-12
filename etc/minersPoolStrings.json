@@ -1,10 +1,10 @@
-//[
- //  {
- //     "poolName":"Number7pool.org",
- //     "url":"https://Number7pool.org/",
- //     "searchStrings":[
- //        "Number7pool.org"
- //     ]
- //  },
+[
+   {
+      "poolName":"Number7pool.org",
+      "url":"https://Number7pool.org/",
+      "searchStrings":[
+         "Number7pool.org"
+      ]
+   }
    
-//]
+]
